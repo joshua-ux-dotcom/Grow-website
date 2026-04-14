@@ -14,20 +14,28 @@
   <header class="hero">
     <nav class="navbar">
       <div class="logo">Grow</div>
-      <a href="#kontakt" class="nav-button">Kontakt</a>
+
+      <div class="nav-right">
+        <div class="language-switch">
+          <button id="deBtn" class="lang-btn active" type="button">DE</button>
+          <button id="enBtn" class="lang-btn" type="button">EN</button>
+        </div>
+
+        <a href="#kontakt" class="nav-button" data-i18n="navContact">Kontakt</a>
+      </div>
     </nav>
 
     <div class="hero-content">
-      <p class="tag">Motivation. Disziplin. Wachstum.</p>
-      <h1>Die Plattform für motivierende Kurzvideos</h1>
-      <p class="hero-text">
+      <p class="tag" data-i18n="heroTag">Motivation. Disziplin. Wachstum.</p>
+      <h1 data-i18n="heroTitle">Die Plattform für motivierende Kurzvideos</h1>
+      <p class="hero-text" data-i18n="heroText">
         Grow bringt Menschen Inhalte, die sie wirklich weiterbringen:
         Disziplin, Fitness, Erfolg, Produktivität und echtes Mindset.
       </p>
 
       <div class="hero-buttons">
-        <a href="#creator" class="btn btn-primary">Für Creator</a>
-        <a href="#grow" class="btn btn-secondary">Mehr erfahren</a>
+        <a href="#creator" class="btn btn-primary" data-i18n="heroBtn1">Für Creator</a>
+        <a href="#grow" class="btn btn-secondary" data-i18n="heroBtn2">Mehr erfahren</a>
       </div>
     </div>
   </header>
@@ -36,9 +44,9 @@
     <section id="grow" class="section">
       <div class="container">
         <div class="section-heading">
-          <p class="section-label">Was ist Grow?</p>
-          <h2>Keine beliebige Kurzvideo-App</h2>
-          <p>
+          <p class="section-label" data-i18n="aboutLabel">Was ist Grow?</p>
+          <h2 data-i18n="aboutTitle">Keine beliebige Kurzvideo-App</h2>
+          <p data-i18n="aboutText">
             Grow ist auf motivierende Inhalte fokussiert. Unser Ziel ist nicht
             reine Unterhaltung, sondern Inhalte, die Menschen inspirieren,
             disziplinierter, fitter und produktiver zu werden.
@@ -47,24 +55,24 @@
 
         <div class="features-grid">
           <article class="card">
-            <h3>Fokussierter Feed</h3>
-            <p>
+            <h3 data-i18n="feature1Title">Fokussierter Feed</h3>
+            <p data-i18n="feature1Text">
               Nur ausgewählte Kurzvideos zu Disziplin, Erfolg, Fitness,
               Produktivität und Mindset.
             </p>
           </article>
 
           <article class="card">
-            <h3>Echter Mehrwert</h3>
-            <p>
+            <h3 data-i18n="feature2Title">Echter Mehrwert</h3>
+            <p data-i18n="feature2Text">
               Grow soll Nutzer nicht ablenken, sondern ihnen helfen,
               besser zu werden und ins Handeln zu kommen.
             </p>
           </article>
 
           <article class="card">
-            <h3>Mehr als nur Videos</h3>
-            <p>
+            <h3 data-i18n="feature3Title">Mehr als nur Videos</h3>
+            <p data-i18n="feature3Text">
               Zusätzlich sind Tools wie To-do-Liste, Tagesplaner,
               Trainingsplan und weitere Features geplant.
             </p>
@@ -76,9 +84,9 @@
     <section id="creator" class="section section-dark">
       <div class="container">
         <div class="section-heading">
-          <p class="section-label">Für Creator</p>
-          <h2>Wir suchen Creator mit echtem Impact</h2>
-          <p>
+          <p class="section-label" data-i18n="creatorLabel">Für Creator</p>
+          <h2 data-i18n="creatorTitle">Wir suchen Creator mit echtem Impact</h2>
+          <p data-i18n="creatorText">
             Wir suchen Creator, deren Content Menschen motiviert und
             voranbringt. Wenn deine Inhalte zu Disziplin, Gym, Erfolg,
             Produktivität oder Mindset passen, möchten wir gerne mit dir
@@ -88,29 +96,29 @@
 
         <div class="creator-grid">
           <article class="card highlight-card">
-            <h3>Was wir suchen</h3>
+            <h3 data-i18n="creatorCard1Title">Was wir suchen</h3>
             <ul>
-              <li>Motivierende Kurzvideos mit echtem Mehrwert</li>
-              <li>Content zu Disziplin, Fitness, Erfolg oder Mindset</li>
-              <li>Creators mit klarer Message und starker Wirkung</li>
+              <li data-i18n="creatorCard1Item1">Motivierende Kurzvideos mit echtem Mehrwert</li>
+              <li data-i18n="creatorCard1Item2">Content zu Disziplin, Fitness, Erfolg oder Mindset</li>
+              <li data-i18n="creatorCard1Item3">Creators mit klarer Message und starker Wirkung</li>
             </ul>
           </article>
 
           <article class="card">
-            <h3>Wie die Zusammenarbeit aussieht</h3>
+            <h3 data-i18n="creatorCard2Title">Wie die Zusammenarbeit aussieht</h3>
             <ul>
-              <li>Zu Beginn Nutzung ausgewählter Inhalte mit Erlaubnis</li>
-              <li>Langfristig direkte Creator-Einbindung auf Grow</li>
-              <li>Professionelle und faire Zusammenarbeit</li>
+              <li data-i18n="creatorCard2Item1">Zu Beginn Nutzung ausgewählter Inhalte mit Erlaubnis</li>
+              <li data-i18n="creatorCard2Item2">Langfristig direkte Creator-Einbindung auf Grow</li>
+              <li data-i18n="creatorCard2Item3">Professionelle und faire Zusammenarbeit</li>
             </ul>
           </article>
 
           <article class="card">
-            <h3>Unsere Vision</h3>
+            <h3 data-i18n="creatorCard3Title">Unsere Vision</h3>
             <ul>
-              <li>Eine starke Plattform für motivierende Inhalte</li>
-              <li>Eine Community, die wachsen will</li>
-              <li>Langfristige Partnerschaften mit passenden Creatorn</li>
+              <li data-i18n="creatorCard3Item1">Eine starke Plattform für motivierende Inhalte</li>
+              <li data-i18n="creatorCard3Item2">Eine Community, die wachsen will</li>
+              <li data-i18n="creatorCard3Item3">Langfristige Partnerschaften mit passenden Creatorn</li>
             </ul>
           </article>
         </div>
@@ -120,9 +128,9 @@
     <section id="screenshots" class="section">
       <div class="container">
         <div class="section-heading">
-          <p class="section-label">App-Einblicke</p>
-          <h2>Erste Eindrücke von Grow</h2>
-          <p>
+          <p class="section-label" data-i18n="screensLabel">App-Einblicke</p>
+          <h2 data-i18n="screensTitle">Erste Eindrücke von Grow</h2>
+          <p data-i18n="screensText">
             Hier können Creator sehen, in welchem Stil und Umfeld ihr Content
             auf Grow präsentiert wird.
           </p>
@@ -131,17 +139,17 @@
         <div class="screenshots-grid">
           <div class="screenshot-card">
             <img src="images/feed-screen.jpeg" alt="Grow Feed Screen" />
-            <p>Feed</p>
+            <p data-i18n="screen1">Feed</p>
           </div>
 
           <div class="screenshot-card">
             <img src="images/tools-screen.jpeg" alt="Grow Tools Screen" />
-            <p>Tools</p>
+            <p data-i18n="screen2">Tools</p>
           </div>
 
           <div class="screenshot-card">
-            <img src="images/feedback-screen.jpeg" alt="Grow App Preview" />
-            <p>Weitere Ansicht</p>
+            <img src="images/preview-screen.jpeg" alt="Grow App Preview" />
+            <p data-i18n="screen3">App Preview</p>
           </div>
         </div>
       </div>
@@ -150,25 +158,189 @@
     <section id="kontakt" class="section section-dark">
       <div class="container contact-box">
         <div>
-          <p class="section-label">Kontakt</p>
-          <h2>Interesse an einer Zusammenarbeit?</h2>
-          <p>
+          <p class="section-label" data-i18n="contactLabel">Kontakt</p>
+          <h2 data-i18n="contactTitle">Interesse an einer Zusammenarbeit?</h2>
+          <p data-i18n="contactText">
             Wenn du Creator bist und dein Content zu Grow passt, freuen wir uns
             über deine Nachricht.
           </p>
         </div>
 
         <div class="contact-details">
-          <p><strong>E-Mail:</strong> joingrow@gmail.com</p>
-          <p><strong>Instagram:</strong> joingrow.app</p>
-          <p><strong>TikTok:</strong> joingrow.app</p>
+          <p><strong data-i18n="emailLabel">E-Mail:</strong> kontakt@joingrow.app</p>
+          <p><strong>Instagram:</strong> @grow.app</p>
+          <p><strong>TikTok:</strong> @grow.app</p>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2026 Grow. All rights reserved.</p>
+    <p data-i18n="footerText">© 2026 Grow. Alle Rechte vorbehalten.</p>
   </footer>
+
+  <script>
+    const translations = {
+      de: {
+        navContact: "Kontakt",
+        heroTag: "Motivation. Disziplin. Wachstum.",
+        heroTitle: "Die Plattform für motivierende Kurzvideos",
+        heroText:
+          "Grow bringt Menschen Inhalte, die sie wirklich weiterbringen: Disziplin, Fitness, Erfolg, Produktivität und echtes Mindset.",
+        heroBtn1: "Für Creator",
+        heroBtn2: "Mehr erfahren",
+
+        aboutLabel: "Was ist Grow?",
+        aboutTitle: "Keine beliebige Kurzvideo-App",
+        aboutText:
+          "Grow ist auf motivierende Inhalte fokussiert. Unser Ziel ist nicht reine Unterhaltung, sondern Inhalte, die Menschen inspirieren, disziplinierter, fitter und produktiver zu werden.",
+
+        feature1Title: "Fokussierter Feed",
+        feature1Text:
+          "Nur ausgewählte Kurzvideos zu Disziplin, Erfolg, Fitness, Produktivität und Mindset.",
+        feature2Title: "Echter Mehrwert",
+        feature2Text:
+          "Grow soll Nutzer nicht ablenken, sondern ihnen helfen, besser zu werden und ins Handeln zu kommen.",
+        feature3Title: "Mehr als nur Videos",
+        feature3Text:
+          "Zusätzlich sind Tools wie To-do-Liste, Tagesplaner, Trainingsplan und weitere Features geplant.",
+
+        creatorLabel: "Für Creator",
+        creatorTitle: "Wir suchen Creator mit echtem Impact",
+        creatorText:
+          "Wir suchen Creator, deren Content Menschen motiviert und voranbringt. Wenn deine Inhalte zu Disziplin, Gym, Erfolg, Produktivität oder Mindset passen, möchten wir gerne mit dir zusammenarbeiten.",
+
+        creatorCard1Title: "Was wir suchen",
+        creatorCard1Item1: "Motivierende Kurzvideos mit echtem Mehrwert",
+        creatorCard1Item2: "Content zu Disziplin, Fitness, Erfolg oder Mindset",
+        creatorCard1Item3: "Creators mit klarer Message und starker Wirkung",
+
+        creatorCard2Title: "Wie die Zusammenarbeit aussieht",
+        creatorCard2Item1: "Zu Beginn Nutzung ausgewählter Inhalte mit Erlaubnis",
+        creatorCard2Item2: "Langfristig direkte Creator-Einbindung auf Grow",
+        creatorCard2Item3: "Professionelle und faire Zusammenarbeit",
+
+        creatorCard3Title: "Unsere Vision",
+        creatorCard3Item1: "Eine starke Plattform für motivierende Inhalte",
+        creatorCard3Item2: "Eine Community, die wachsen will",
+        creatorCard3Item3: "Langfristige Partnerschaften mit passenden Creatorn",
+
+        screensLabel: "App-Einblicke",
+        screensTitle: "Erste Eindrücke von Grow",
+        screensText:
+          "Hier können Creator sehen, in welchem Stil und Umfeld ihr Content auf Grow präsentiert wird.",
+        screen1: "Feed",
+        screen2: "Tools",
+        screen3: "App Preview",
+
+        contactLabel: "Kontakt",
+        contactTitle: "Interesse an einer Zusammenarbeit?",
+        contactText:
+          "Wenn du Creator bist und dein Content zu Grow passt, freuen wir uns über deine Nachricht.",
+        emailLabel: "E-Mail:",
+        footerText: "© 2026 Grow. Alle Rechte vorbehalten."
+      },
+
+      en: {
+        navContact: "Contact",
+        heroTag: "Motivation. Discipline. Growth.",
+        heroTitle: "The platform for motivational short-form videos",
+        heroText:
+          "Grow gives people content that truly moves them forward: discipline, fitness, success, productivity, and real mindset.",
+        heroBtn1: "For Creators",
+        heroBtn2: "Learn More",
+
+        aboutLabel: "What is Grow?",
+        aboutTitle: "Not just another short-form video app",
+        aboutText:
+          "Grow is focused on motivational content. Our goal is not pure entertainment, but content that inspires people to become more disciplined, fitter, and more productive.",
+
+        feature1Title: "Focused Feed",
+        feature1Text:
+          "Only selected short-form videos about discipline, success, fitness, productivity, and mindset.",
+        feature2Title: "Real Value",
+        feature2Text:
+          "Grow is not meant to distract users, but to help them improve and take action.",
+        feature3Title: "More than just videos",
+        feature3Text:
+          "Additional tools such as a to-do list, daily planner, training plan, and more are also planned.",
+
+        creatorLabel: "For Creators",
+        creatorTitle: "We are looking for creators with real impact",
+        creatorText:
+          "We are looking for creators whose content motivates people and helps them move forward. If your content fits discipline, gym, success, productivity, or mindset, we would love to work with you.",
+
+        creatorCard1Title: "What we are looking for",
+        creatorCard1Item1: "Motivational short-form videos with real value",
+        creatorCard1Item2: "Content about discipline, fitness, success, or mindset",
+        creatorCard1Item3: "Creators with a clear message and strong impact",
+
+        creatorCard2Title: "How collaboration works",
+        creatorCard2Item1: "Initially, selected content is used with permission",
+        creatorCard2Item2: "Long term, direct creator integration on Grow",
+        creatorCard2Item3: "Professional and fair collaboration",
+
+        creatorCard3Title: "Our Vision",
+        creatorCard3Item1: "A strong platform for motivational content",
+        creatorCard3Item2: "A community that wants to grow",
+        creatorCard3Item3: "Long-term partnerships with fitting creators",
+
+        screensLabel: "App Insights",
+        screensTitle: "First impressions of Grow",
+        screensText:
+          "Here, creators can see the style and environment in which their content is presented on Grow.",
+        screen1: "Feed",
+        screen2: "Tools",
+        screen3: "App Preview",
+
+        contactLabel: "Contact",
+        contactTitle: "Interested in collaborating?",
+        contactText:
+          "If you are a creator and your content fits Grow, we would love to hear from you.",
+        emailLabel: "Email:",
+        footerText: "© 2026 Grow. All rights reserved."
+      }
+    };
+
+    const deBtn = document.getElementById("deBtn");
+    const enBtn = document.getElementById("enBtn");
+
+    function setLanguage(lang) {
+      document.documentElement.lang = lang;
+
+      document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.getAttribute("data-i18n");
+        if (translations[lang][key]) {
+          element.textContent = translations[lang][key];
+        }
+      });
+
+      const title =
+        lang === "de"
+          ? "Grow | Motivierende Kurzvideos"
+          : "Grow | Motivational Short-Form Videos";
+
+      const description =
+        lang === "de"
+          ? "Grow ist eine Plattform für motivierende Kurzvideos rund um Disziplin, Erfolg, Fitness und Produktivität."
+          : "Grow is a platform for motivational short-form videos focused on discipline, success, fitness, and productivity.";
+
+      document.title = title;
+      document
+        .querySelector('meta[name="description"]')
+        .setAttribute("content", description);
+
+      deBtn.classList.toggle("active", lang === "de");
+      enBtn.classList.toggle("active", lang === "en");
+
+      localStorage.setItem("grow-language", lang);
+    }
+
+    deBtn.addEventListener("click", () => setLanguage("de"));
+    enBtn.addEventListener("click", () => setLanguage("en"));
+
+    const savedLanguage = localStorage.getItem("grow-language") || "en";
+    setLanguage(savedLanguage);
+  </script>
 </body>
 </html>
